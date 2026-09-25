@@ -102,7 +102,17 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T08:04:04.084Z",
                         "updatedAt": "2025-10-13T08:04:04.084Z",
                         "assignee": dummyUsers[0],
-                        "comments": []
+                        "comments": [],
+                        "subtasks": [
+                            { "id": "sub_1", "title": "Design layout wireframe", "completed": true },
+                            { "id": "sub_2", "title": "Build sidebar navigation", "completed": true },
+                            { "id": "sub_3", "title": "Implement stats cards", "completed": false },
+                            { "id": "sub_4", "title": "Add responsive breakpoints", "completed": false }
+                        ],
+                        "attachments": [
+                            { "id": "att_1", "name": "dashboard-wireframe.pdf", "url": "#", "createdAt": "2025-10-14T09:00:00.000Z" },
+                            { "id": "att_2", "name": "color-palette.png", "url": "#", "createdAt": "2025-10-15T11:30:00.000Z" }
+                        ]
                     },
                     {
                         "id": "9dbd5f04-5a29-4232-9e8c-a1d8e4c566df",
@@ -117,7 +127,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T08:10:31.922Z",
                         "updatedAt": "2025-10-13T08:10:31.922Z",
                         "assignee": dummyUsers[1],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "0e6798ad-8a1d-4bca-b0cd-8199491dbf03",
@@ -132,7 +142,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T08:11:33.779Z",
                         "updatedAt": "2025-10-13T08:11:33.779Z",
                         "assignee": dummyUsers[0],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "7989b4cc-1234-4816-a1d9-cc86cd09596a",
@@ -147,7 +157,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T08:12:35.146Z",
                         "updatedAt": "2025-10-13T08:12:35.146Z",
                         "assignee": dummyUsers[1],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     }
                 ],
                 "members": [
@@ -198,7 +208,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T08:16:19.936Z",
                         "updatedAt": "2025-10-13T08:16:19.936Z",
                         "assignee": dummyUsers[1],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "c7cafc09-5138-4918-9277-5ab94b520410",
@@ -213,7 +223,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T08:17:36.730Z",
                         "updatedAt": "2025-10-13T08:17:36.730Z",
                         "assignee": dummyUsers[0],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "53883b41-1912-460e-8501-43363ff3f5d4",
@@ -228,7 +238,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T08:18:16.611Z",
                         "updatedAt": "2025-10-13T08:18:16.611Z",
                         "assignee": dummyUsers[1],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     }
                 ],
                 "members": [
@@ -319,7 +329,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T09:05:59.062Z",
                         "updatedAt": "2025-10-13T09:05:59.062Z",
                         "assignee": dummyUsers[2],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "1cd6f85d-889a-4a5b-901f-ed8fa221d62b",
@@ -334,7 +344,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T09:04:58.859Z",
                         "updatedAt": "2025-10-13T09:04:58.859Z",
                         "assignee": dummyUsers[0],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "8125eeac-196d-4797-8b14-21260f46abcc",
@@ -349,7 +359,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T09:05:25.518Z",
                         "updatedAt": "2025-10-13T09:05:25.518Z",
                         "assignee": dummyUsers[1],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     }
                 ],
                 "members": [
@@ -400,7 +410,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T09:09:15.029Z",
                         "updatedAt": "2025-10-13T09:09:15.029Z",
                         "assignee": dummyUsers[0],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "ce3dc378-f959-42f4-b12b-4c6cae6195c9",
@@ -415,7 +425,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T09:09:55.827Z",
                         "updatedAt": "2025-10-13T09:09:55.827Z",
                         "assignee": dummyUsers[1],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     },
                     {
                         "id": "e01fda50-8818-4635-bcb6-9cde5c140b3d",
@@ -430,7 +440,7 @@ export const dummyWorkspaces = [
                         "createdAt": "2025-10-13T09:10:27.049Z",
                         "updatedAt": "2025-10-13T09:10:27.049Z",
                         "assignee": dummyUsers[0],
-                        "comments": []
+                        "comments": [], "subtasks": [], "attachments": []
                     }
                 ],
                 "members": [

@@ -20,7 +20,7 @@ const priorityTexts = {
     HIGH: { background: "bg-emerald-100 dark:bg-emerald-950", prioritycolor: "text-emerald-600 dark:text-emerald-400" },
 };
 
-const ProjectTasks = ({ tasks }) => {
+const ProjectTasks = ({ tasks, projectId }) => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const [selectedTasks, setSelectedTasks] = useState([]);
@@ -83,7 +83,7 @@ const ProjectTasks = ({ tasks }) => {
             //  Simulate API call
             await new Promise((resolve) => setTimeout(resolve, 2000));
 
-            dispatch(deleteTask(selectedTasks));
+            dispatch(deleteTask({ projectId, ids: selectedTasks }));
 
             toast.dismissAll();
             toast.success("Tasks deleted successfully");
